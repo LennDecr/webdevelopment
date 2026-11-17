@@ -1,0 +1,64 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 11px;
+    margin: 8px 0;
+}
+
+body > section {
+    width: 95%;
+    margin: 0 auto;
+}
+
+section > header {
+    background-image: url("../images/header.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 96px;
+}
+
+section > header h1 {
+    margin: 0;
+    padding: 4px 10px;
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px black;
+}
+
+nav {
+    background-color: #444444;
+    color: #666666;
+    padding: 4px 4px;
+    font-size: 12px;
+}
+
+nav a {
+    color: #66FF99;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+article {
+    background-color: #EEEEEE;
+    margin: 6px 4px;
+    padding: 4px 6px;
+}
+
+article h2 {
+    color: #444444;
+    font-size: 24px;
+    text-decoration: underline;
+    margin: 30px 0 30px 0;
+}
+
+article p {
+    margin: 0 0 10px 0;
+}
+
+section > footer {
+    font-size: 10px;
+    margin-top: 4px;
+}

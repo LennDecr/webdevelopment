@@ -1,0 +1,9 @@
+header img {
+    display: block; /* img is een inline elen -> converteren naar block*/
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+    background-color : red;
+
+}
